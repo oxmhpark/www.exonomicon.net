@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% assign post = page %}
+{% include post-format-simpletext.html %}
+
+<div class="archives archive-type-posts">
+  {% for post in site.posts limit:7 %}
+  {% include post-format-excerpt.html %}
+  {% endfor %}
+</div>

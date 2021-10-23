@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% assign post = page %}
+{% include post-format-simpletext.html %}
+
+<div class="archives archive-type-posts">
+  {% for post in site.posts %}
+  {% include post-format-list-item.html %}
+  {% endfor %}
+</div>

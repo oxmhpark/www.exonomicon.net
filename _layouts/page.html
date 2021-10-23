@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% assign post = page %}
+{% include post-format-simpletext.html %}
+{% if post.comments %}
+{% include comments.html %}
+{% endif %}
