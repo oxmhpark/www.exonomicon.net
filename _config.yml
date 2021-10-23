@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: SITE NAME HERE
+name: exonomicon.net
 
 # Name of the author
-author: YOUR NAME HERE
+author: 옥수박
 
 # Short bio or description (displayed in the header)
-description: SITE DESCRIPTION HERE
+description: 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: 
@@ -38,7 +38,7 @@ footer-links:
 
 # Utterances comment system
 utterances:
-  repo: YOUR-GITHUB-REPOSITORY-HERE
+  repo: www.exonomicon.net
   issue-term: pathname
   label: comment-utterances
   branch: main
@@ -48,14 +48,14 @@ google_analytics:
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://SITE-URL-HERE
-enforce_ssl: https://SITE-URL-HERE
+url: http://exonomicon.net
+enforce_ssl: https://exonomicon.net
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: /SITE-BASEURL-HERE
+baseurl: /
 
 timezone: Asia/Seoul
 
