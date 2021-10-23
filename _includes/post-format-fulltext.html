@@ -5,9 +5,9 @@
     {% if site.author %}
     <p class="entry-author">{{site.author}}</p>
     {% endif %}
-    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</p>
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_xmlschema }}</p>
     {% if post.last_modified_at %}
-    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: "%b %-d, %Y" }})</p>
+    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date_to_xmlschema }})</p>
     {% endif %}
   </div>
 
