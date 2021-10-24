@@ -20,6 +20,7 @@ avatar:
 
 format:
   date: "%Y.%m.%d."
+  read_more_label: "더 읽기"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
