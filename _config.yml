@@ -42,7 +42,7 @@ footer-links:
 
 # Utterances comment system
 utterances:
-  repo: www.exonomicon.net
+  repo: oxmhpark/www.exonomicon.net
   issue-term: pathname
   label: comment-utterances
   branch: main
