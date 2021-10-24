@@ -170,6 +170,13 @@ strong {
   font-weight: bold;
 }
 
+pre,
+code {
+  background-color: $color-code-background;
+  color: $color-code-text;
+  font-family: $font-code;
+}
+
 img {
   max-width: 100%;
 }
