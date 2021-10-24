@@ -95,6 +95,10 @@
 				text-decoration: underline;
 				color: $color-nav-text-hover;
 			}
+			
+			&.current {
+				font-weight: bold;
+			}
 		}
 	}
 }
